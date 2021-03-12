@@ -1,79 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-body {
-    font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+body{
+    font-family: 'Libre Franklin', sans-serif;
 }
 * {
-    margin: 0;
+    margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-.container{
-    text-align: right;
-    padding: 20px;
+.wraper{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-desktop.svg');
+    background-size: 100%;
+    color: #ffffff;
 }
 .logo{
+    margin-left: 40px;
+    width: 60px;
     float: left;
+    padding-top: 10px;
 }
-li{
-    list-style: none;
-    display: inline;
-    padding: 8px;
-    font-size: 14px;
-}
-.section{
-    background-color:#F5E8E5;
-    padding: 20px;
-}
-.box1{
-    max-width: 50%;
-    float: left;
-    padding-top: 70px;
-    padding-right: 10%;
-}
-span{
-    background-color: rgb(255, 92, 1);
-    color: white;
-    padding-left: 13px;
-    font-size: 14px;
-    padding-right: 5px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border-radius: 3px;
- }
+h1{
+    padding-top: 20px;
 
- h5{
-     font-size: 16px;
-     margin-bottom: 20px;
-     color: #767575;
- }
- h1{
-     font-size: 60px;
-     color: #413e3e;
- }
- button{
-     margin-top: 30px;
-     padding:10px 30px;
-     font-size: 15px;
-     background-color: rgb(255, 92, 1);
-     border:1px solid rgb(255, 92, 1);
-     color: #ffffff;
-     text-transform: uppercase;
-     letter-spacing: 0.2em;
- }
- #brand {
-     color:#fea271;
-     background-color: white;
-     font-size: 20px;
- }
+}
+.illustration{
+    margin-top: 50px;
+    margin-left: -80px;
+    width: 50%;
+}
+.box2{
+    margin-top: 38px;
+    padding: 70px;
+    margin-right: 90px;
+    width: 45%;
+    margin-left: -110px;
+    float: right;
+}
+.box3{
+    float: right;
+    padding-top: 180px;
 
-  h3 {
-      margin: 0;
-
-  }
+}
+h3{
+    font-size: 1.5em;
+}
 p{
-    text-align: center;
-    font-style: italic;
-    font-weight: bolder;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 19px;
 }
+button{
+    margin-top: 20px;
+    padding: 8px 40px;
+    border-radius: 15px;
+    border: solid white;
+    color: rgb(68, 67, 50);
+}
+.fa {
+    margin-top: 30px;
+    width: 40px;
+    padding: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: -20px;
 
+}
